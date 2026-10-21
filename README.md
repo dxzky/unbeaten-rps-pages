@@ -1,2 +1,11 @@
-# unbeaten-rps-pages
-Browser-based rock-paper-scissors game with on-device gesture recognition and optional USB camera.
+# 不败拳王 · 浏览器版
+
+使用 GitHub Pages 提供的 HTTPS 链接打开。授权后明确选择摄像头并连接，再点击开始挑战。电脑支持浏览器能识别的内置或 UVC 摄像头；手机使用自带摄像头，外接 USB 摄像头兼容性需实测。
+
+识别在浏览器本地运行，不上传或保存摄像头画面。首次需要下载约 28 MB 的模型及运行库；无需 AI API key。模型加载、识别速度和 USB 支持受设备、浏览器和网络影响。
+
+电脑先观察手势再出克制手势，识别有误时可作废本轮；不是预测未来。
+
+发布设置：Settings → Pages → Deploy from a branch → main / (root)。
+
+本目录仅包含公开网站所需资源，不需要 Node.js 服务器。
